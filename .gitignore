@@ -75,9 +75,10 @@ env/
 *.swp
 *.swo
 
-# csv, excel
+# documents
 *.csv
 *.xlsx
+*.pdf
 
 # macOS display setting files
 .DS_Store
