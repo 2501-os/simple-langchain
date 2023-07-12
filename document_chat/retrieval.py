@@ -2,7 +2,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-import os
 from langchain.vectorstores import Chroma
 from langchain import OpenAI
 from langchain.embeddings.openai import OpenAIEmbeddings
