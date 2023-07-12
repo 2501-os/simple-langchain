@@ -51,7 +51,7 @@ vectordb = Chroma.from_documents(
 )
 print(vectordb._collection.count())
 
-# similarity search
+# retrieval. similarity search, the most basic way to do it
 question = "what is this guidance for?"
 
 docs = vectordb.similarity_search(question, k=3)
