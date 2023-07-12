@@ -82,3 +82,6 @@ env/
 
 # macOS display setting files
 .DS_Store
+
+# vector db
+docs/
